@@ -7,7 +7,7 @@
       <p>Faculty of Electrical and Computer Engineering</p>
       <p>Computer and Software Engineering - Master Program</p>
 	<p>Course: Data Preparation and Visualization</p>
-      <p>Professor: PhD. Mërgim Hoti</p>
+      <p>Professor: Dr. Sc. Mërgim Hoti</p>
     </td>
  </tr>
 </table>
