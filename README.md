@@ -40,22 +40,27 @@ To transform raw behavioral data into a structured, enriched dataset that suppor
 
 ## ETL Pipeline Structure
 
+```text
 etl/
-├── aggregation.py                 # Job-based productivity aggregation
-├── advanced_imputation.py         # Smart contextual imputation
-├── apply_binarization.py          # Binary feature creation
-├── apply_discretization.py        # Continuous variable binning
-├── column_names.py                # Centralized schema definitions
-├── data_quality.py                # Logical and consistency checks
-├── data_sampling.py               # Random / stratified sampling
-├── data_type_definition.py        # Explicit dtype enforcement
-├── dependency_map.py              # Imputation dependency rules
-├── feature_reduction_enhanced.py  # Duplicate + correlation-based reduction
-├── features.py                    # Feature engineering metrics
-├── load.py                        # Save processed dataset
-├── extract.py                     # Load and profile raw data
-├── selection.py                   # Advanced correlation/variance feature selector
-└── main.py                        # Pipeline orchestration entry point
+├─ aggregation.py
+├─ binarization.py
+├─ column_names.py
+├─ data_quality.py
+├─ data_sampling.py
+├─ data_type_definition.py
+├─ dependency_map.py
+├─ discretization.py
+├─ duplicates.py
+├─ extract.py
+├─ feature_reduction_enhanced.py
+├─ features.py
+├─ load.py
+├─ main.py
+├─ missingValues.py
+├─ protected_cols.py
+├─ selection.py
+├─ transform.py
+```
 
 ---
 
