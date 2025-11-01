@@ -1,3 +1,7 @@
+"""
+End-to-end data transformation to prepare the dataset for analysis.
+"""
+
 import pandas as pd
 from sklearn.feature_selection import VarianceThreshold
 from sklearn.preprocessing import KBinsDiscretizer

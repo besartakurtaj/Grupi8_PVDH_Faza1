@@ -1,3 +1,12 @@
+"""
+Handles data extraction from raw sources.
+
+- Reads the input CSV dataset.
+- Applies type definitions and removes duplicate rows.
+- Reports basic data quality.
+- Returns a pandas DataFrame ready for preprocessing.
+"""
+
 import pandas as pd
 from data_quality import assess_data_quality
 from data_type_definition import define_data_type

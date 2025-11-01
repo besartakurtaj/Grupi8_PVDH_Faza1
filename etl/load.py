@@ -1,3 +1,10 @@
+"""
+Handles the data loading phase.
+
+- Saves the final processed DataFrame to a specified CSV output path.
+- Ensures consistent file formatting and no index column.
+"""
+
 import pandas as pd
 
 def load_data(df: pd.DataFrame, output_path: str):

@@ -1,3 +1,10 @@
+"""
+Main entry point for the ETL pipeline.
+
+- Extracts data from the CSV source.
+- Transforms it through cleaning, feature engineering, and selection steps.
+- Loads the processed dataset to an output file.
+"""
 from extract import extract_data
 from transform import transform_data
 from load import load_data
