@@ -46,7 +46,7 @@ def extract_data(file_path: str) -> pd.DataFrame:
     for col in df.select_dtypes(include=["object"]).columns[:19]:
         print(f"{col}: {df[col].nunique()} unique values")
 
-    df_sample = perform_sampling(df, method="stratified", frac=0.67)
+    df_sample = perform_sampling(df, method="stratified", frac=0.5)
     df_sample = df_sample.reset_index(drop=True)
 
     return df_sample
