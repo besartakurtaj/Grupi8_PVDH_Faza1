@@ -93,6 +93,13 @@ etl/
 - Aggregated behavior metrics by user groups and balanced the dataset for analysis.
 
 ---
+### Raw dataset
+
+<img width="1650" height="649" alt="{DB5F91EF-1358-42D8-AE0B-B559066B8FF2}" src="https://github.com/user-attachments/assets/2f0b7bb2-984e-4482-80bb-b3391977b6c1" />
+
+### Processed dataset 
+
+<img width="1898" height="638" alt="{2A39D00C-EA79-422A-9FEF-613F23356E1F}" src="https://github.com/user-attachments/assets/365f3f02-bdc6-4aa9-a5fa-9c688bac45fc" />
 
 ## Requirements
 
