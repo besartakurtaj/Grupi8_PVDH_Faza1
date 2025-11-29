@@ -35,6 +35,8 @@ To transform raw behavioral data into a structured, enriched dataset that suppor
 5. Engineer new behavioral and psychological indicators.
 6. Reduce redundancy via correlation-based feature selection.
 7. Export a clean, ready-to-analyze dataset.
+8. Detect and remove statistical outliers using IQR and Z-Score methods.
+9. Perform exploratory data analysis to uncover trends and correlations.
 
 ---
 
@@ -60,6 +62,9 @@ etl/
 ├─ protected_cols.py
 ├─ selection.py
 ├─ transform.py
+analysis/
+├─ outlier_detection.py
+├─ exploratory_analysis.py
 ```
 
 ---
@@ -68,10 +73,12 @@ etl/
 
 **Source (raw):** `data/Social_media_and_productivity.csv`  
 **Processed (output):** `data/processed_data.csv`
+**Cleaned (output):** `data/cleaned_dataset.csv`
 
 ### What these files are
 - **`social_media_vs_productivity.csv`** - the **original** dataset exactly as provided.
 - **`processed_data.csv`** - the **transformed** dataset produced by our ETL pipeline.
+- **`cleaned_dataset.csv`** - the **clean** dataset ready for exploratory analysis.
 
 ---
 
@@ -79,11 +86,11 @@ etl/
 
 - After running the ETL pipeline, the raw dataset on social media usage and productivity was successfully transformed into a clean and structured dataset.
 - The processed data now meets high standards of data quality for further analytics.
+- Statistical anomalies were identified and removed, revealing clearer correlations between social media habits and stress levels.
 
 ---
 
 ### Outcomes
-
 
 - Removed duplicate entries and invalid records. Missing values were imputed based on logical and statistical relationships among features.  
 - Ensured consistent data types, verified expected value ranges and fixed outliers.  
@@ -91,8 +98,11 @@ etl/
 - Converted categorical variables into numerical form using label encoding. Continuous variables were discretized into interpretable intervals.  
 - Reduced redundant or highly correlated features, keeping only the most informative variables.  
 - Aggregated behavior metrics by user groups and balanced the dataset for analysis.
+- Applied IQR and Z-Score methods to detect and handle outliers, ensuring statistical validity.
+- Conducted multivariate analysis to uncover relationships and dependencies between variables.
 
 ---
+
 ### Raw dataset
 
 <img width="1650" height="649" alt="{DB5F91EF-1358-42D8-AE0B-B559066B8FF2}" src="https://github.com/user-attachments/assets/2f0b7bb2-984e-4482-80bb-b3391977b6c1" />
@@ -100,6 +110,10 @@ etl/
 ### Processed dataset 
 
 <img width="1898" height="638" alt="{2A39D00C-EA79-422A-9FEF-613F23356E1F}" src="https://github.com/user-attachments/assets/365f3f02-bdc6-4aa9-a5fa-9c688bac45fc" />
+
+### Cleaned dataset
+
+<img width="2549" height="1154" alt="image" src="https://github.com/user-attachments/assets/4336f94f-6533-4bc2-940f-aa522a7b10f9" />
 
 ## Requirements
 
@@ -118,6 +132,12 @@ pip install pandas numpy scikit-learn
    python etl/main.py
 4. The processed dataset will be saved automatically to:
    data/processed_dataset.csv
+5. Run the outlier detection script:
+   python analysis/outlier_detection.py
+6. The cleaned dataset will be saved to:
+   data/cleaned_dataset.csv
+7. Run the exploratory analysis:
+   python analysis/exploratory_analysis.py
 
 ---
 
