@@ -29,6 +29,30 @@ print("\nDetailed Numeric Stats:")
 for col in numeric_cols:
     print(f"\nKolona: {col}")
     print("Min:", df[col].min())
+    
+print("\nTop Categories:")
+for col in categorical_cols:
+    print(f"\nCategory: {col}")
+    print(df[col].value_counts())
+
+if len(numeric_cols) > 1:
+    print("\nCorrelation Matrix:")
+    corr = df[numeric_cols].corr()
+    print(corr.round(3))
+
+    print("\nTop 10 Strongest Correlations:")
+    corr_pairs = corr.abs().unstack()
+    corr_pairs = corr_pairs[corr_pairs < 1]
+    corr_pairs = corr_pairs.dropna().sort_values(ascending=False)
+    print(corr_pairs.head(10))
+else:
+    print("\nNot enough numeric columns for correlation.")
+
+print("\nMultivariate Analysis (Grouped Averages):")
+for col in categorical_cols:
+    print(f"\nStats grouped by: {col}")
+    group_stats = df.groupby(col)[numeric_cols].mean()
+    print(group_stats)
     print("Max:", df[col].max())
     print("Mesatarja:", df[col].mean())
     print("Mediana:", df[col].median())
