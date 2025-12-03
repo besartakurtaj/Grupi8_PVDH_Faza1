@@ -53,3 +53,6 @@ print("Saved → cleaned_dataset.csv")
 
 print("\nSummary statistics (cleaned):")
 print(df_clean.describe(include='all'))
+
+outlier_percentage = (df['is_outlier'].sum() / len(df)) * 100
+print(f"Outlier percentage: {outlier_percentage:.2f}%")
