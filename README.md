@@ -334,6 +334,10 @@ Identification of strongest variable relationships
 Key Visual Outputs
 
 Top 10 Strongest Correlations
+
+<img width="4158" height="2662" alt="top_correlations" src="https://github.com/user-attachments/assets/0d12d4d6-dd20-4de2-be80-c19781154397" />
+
+
 Highlights the most influential relationships, including:
 
 Actual vs perceived productivity
@@ -343,6 +347,10 @@ Social media usage vs distraction metrics
 Stress‑sleep interactions
 
 Risk Factor Prevalence
+
+<img width="3557" height="2362" alt="risk_prevalence" src="https://github.com/user-attachments/assets/a49159c1-e6f7-4a90-805d-13978146d6a4" />
+
+
 Quantifies the proportion of the population affected by:
 
 Excessive notifications
@@ -350,6 +358,9 @@ Excessive notifications
 Burnout risk
 
 High stress
+
+<img width="4628" height="2154" alt="stress_impact" src="https://github.com/user-attachments/assets/3ae331c9-2a3b-486a-bc83-20de36a21a1f" />
+
 
 Low sleep
 
