@@ -252,3 +252,131 @@ Columns formatted for analysis
 
 Dataset saved as a CSV file ready for modeling or analysis
 
+
+
+## Phase 2 – Exploratory Data Analysis & Outlier Handling
+
+Phase 2 extends the pipeline with in-depth statistical exploration, visual analytics, and robust outlier detection. The goal of this phase is to understand, validate, and stress-test the dataset produced in Phase 1 before any modeling decisions are made.
+
+### Objectives
+
+Provide a comprehensive statistical and visual overview of the dataset
+
+Analyze demographic balance and workforce composition
+
+Identify behavioral and wellbeing risk patterns
+
+Detect anomalous observations using complementary statistical techniques
+
+Produce clean, traceable datasets for downstream modeling
+
+### Files and Responsibilities
+
+### outliers_detection.py
+
+Robust multivariate outlier detection and auditing module.
+
+This script applies two independent statistical methods to numeric features:
+
+Interquartile Range (IQR) — robust to skewed distributions
+
+Z‑Score (|z| > 3) — sensitive to extreme deviations
+
+Outlier Analysis Outputs
+
+Outlier counts per column (IQR method)
+
+Outlier counts per column (Z‑Score method)
+
+Global outlier flag per row (is_outlier)
+
+Pie‑chart visualization of clean vs anomalous data
+
+Outliers are flagged, logged, and preserved for auditability, not silently removed.
+
+**Generated Datasets:**
+
+**dataset_with_outliers_flag.csv**
+Full dataset including the is_outlier indicator column.
+
+**removed_outliers_log.csv**
+Complete log of all rows identified as anomalous.
+
+**cleaned_dataset.csv**
+Final dataset with outliers removed, used for analysis and modeling.
+
+
+#### exploratory_analysis.py
+
+Advanced Exploratory Data Analysis (EDA) and visualization engine.
+
+This script generates both numerical summaries and high‑quality analytical visualizations:
+
+Statistical Analysis
+
+Dataset structure and schema inspection
+
+Summary statistics for numeric and categorical features
+
+Missing value diagnostics
+
+Correlation matrix computation
+
+Identification of strongest variable relationships
+
+Key Visual Outputs
+
+Top 10 Strongest Correlations
+Highlights the most influential relationships, including:
+
+Actual vs perceived productivity
+
+Social media usage vs distraction metrics
+
+Stress‑sleep interactions
+
+Risk Factor Prevalence
+Quantifies the proportion of the population affected by:
+
+Excessive notifications
+
+Burnout risk
+
+High stress
+
+Low sleep
+
+Social media addiction
+A 50% threshold is used to flag critical public‑health‑level risks.
+
+Stress Impact on Work Performance
+Dual scatter analysis showing:
+
+Stress vs productivity (colored by job satisfaction)
+
+Stress vs job satisfaction (colored by productivity)
+Includes trend lines and correlation coefficients for interpretability.
+
+Dataset Demographics Overview
+Visual breakdown of:
+
+Gender distribution
+
+Job type distribution
+
+Job optimism categories
+
+All figures are exported to analysis/output/ for reporting and presentation use.
+
+### Phase 2 Output
+
+Phase 2 delivers:
+
+A statistically validated and visually interpreted dataset
+
+Clear insights into behavioral, productivity, and wellbeing patterns
+
+Transparent identification of extreme or anomalous observations
+
+A clean, modeling‑ready dataset with full traceability
+
