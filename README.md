@@ -286,11 +286,18 @@ Outlier Analysis Outputs
 
 Outlier counts per column (IQR method)
 
+<img width="2965" height="1762" alt="outlier_counts_iqr" src="https://github.com/user-attachments/assets/66b546f7-f0ac-48f4-b324-90a70a59d97c" />
+
 Outlier counts per column (Z‑Score method)
+
+<img width="2965" height="1762" alt="outlier_counts_zscore" src="https://github.com/user-attachments/assets/60c1dbce-7d32-40ac-a9cb-1ad7cab71fa8" />
 
 Global outlier flag per row (is_outlier)
 
 Pie‑chart visualization of clean vs anomalous data
+
+<img width="1656" height="1771" alt="outlier_pie_chart" src="https://github.com/user-attachments/assets/da702688-300e-4512-8146-2940bf729327" />
+
 
 Outliers are flagged, logged, and preserved for auditability, not silently removed.
 
