@@ -66,9 +66,14 @@ Defines a centralized TYPE_MAPPING for all expected columns
 
 Converts columns to appropriate pandas dtypes (Int64, float64, category)
 
+<img width="440" height="506" alt="image" src="https://github.com/user-attachments/assets/e0c03619-ace8-4a3d-a2d2-aed0c81ba453" />
+
 Logs warnings when conversions fail
 
 Prints final column data types for verification
+
+<img width="582" height="537" alt="image" src="https://github.com/user-attachments/assets/7b96444a-b36b-4b75-87ff-c106c7dea57c" />
+
 
 Ensures schema consistency across the pipeline.
 
@@ -77,6 +82,8 @@ Ensures schema consistency across the pipeline.
 Duplicate handling utility.
 
 Removes duplicate rows from the dataset
+
+<img width="722" height="93" alt="image" src="https://github.com/user-attachments/assets/a99a7f32-fa81-444a-a0fe-cb5269085ea7" />
 
 Supports optional column subsets and retention strategy
 
@@ -159,6 +166,8 @@ Formats column names for readability
 This module consolidates all preprocessing logic.
 
 #### missingValues.py
+
+<img width="537" height="483" alt="image" src="https://github.com/user-attachments/assets/e7c08e82-9b68-4e8f-8983-6aeb7dad83d8" />
 
 Advanced missing value imputation.
 
