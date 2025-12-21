@@ -379,18 +379,10 @@ The objective is to uncover relationships across multiple dimensions while maint
 
 **Chart Type:** Line Combination Chart  
 
-**Dimensions Used:**
-- Stress Level  
-- Insomnia Pressure  
-- Sleep Hours  
-
-**Filters:**
-- Gender  
-- Job Type  
-
 **Description:**  
-This visualization analyzes the relationship between **Stress Level**, **Insomnia Pressure**, and **Sleep Hours**. By combining multiple lines in a single chart, it enables direct comparison of how increasing stress affects sleep duration and insomnia intensity. Interactive filters allow users to isolate specific demographic or occupational groups.
+This visualization analyzes the relationship between **Stress Level**, **Insomnia Pressure**, and **Sleep Hours**. Users can interactively filter the data using **Gender** and **Job Type** controls, allowing focused analysis across different demographic and professional groups.
 
 **Purpose:**  
-To highlight the direct impact of stress on sleep-related outcomes in a clear and descriptive manner.
+To highlight the direct impact of stress on sleep-related outcomes in a clear, fixed, and descriptive visual form.
+
 <img width="857" height="661" alt="image" src="https://github.com/user-attachments/assets/4747ab0b-c0bf-4f5d-a41d-8bca3b59f102" />
