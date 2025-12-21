@@ -434,4 +434,10 @@ This chart compares Average Age and Average Job Satisfaction Score across gender
 To examine demographic differences in job satisfaction while maintaining visual clarity.
 <img width="537" height="578" alt="image" src="https://github.com/user-attachments/assets/0b3161c1-ba1f-49d6-b0e7-8d6c6f25436c" />
 
+---
 
+Authors:
+        Besarta Kurtaj,
+        Enis Hoxha,
+        Shefket Bylygbashi
+Year: 2025
