@@ -370,5 +370,27 @@ Features:
 <img width="1198" height="572" alt="image" src="https://github.com/user-attachments/assets/9cb5a5b6-067d-44b1-ba96-a220ede8de50" />
 
 
+### Multidimensional Data Visualizations
 
+This section presents both **interactive** and **static multidimensional visualizations** derived from the dataset containing demographic, behavioral, productivity, stress, sleep, and social media usage indicators.  
+The objective is to uncover relationships across multiple dimensions while maintaining interpretability and analytical clarity.
 
+### Impact of Stress Level on Insomnia and Sleep Quality
+
+**Chart Type:** Line Combination Chart  
+
+**Dimensions Used:**
+- Stress Level  
+- Insomnia Pressure  
+- Sleep Hours  
+
+**Filters:**
+- Gender  
+- Job Type  
+
+**Description:**  
+This visualization analyzes the relationship between **Stress Level**, **Insomnia Pressure**, and **Sleep Hours**. By combining multiple lines in a single chart, it enables direct comparison of how increasing stress affects sleep duration and insomnia intensity. Interactive filters allow users to isolate specific demographic or occupational groups.
+
+**Purpose:**  
+To highlight the direct impact of stress on sleep-related outcomes in a clear and descriptive manner.
+<img width="857" height="661" alt="image" src="https://github.com/user-attachments/assets/4747ab0b-c0bf-4f5d-a41d-8bca3b59f102" />
