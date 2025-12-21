@@ -377,37 +377,36 @@ The objective is to uncover relationships across multiple dimensions while maint
 ## Interactive Multidimensional Visualizations
 ### Impact of Stress Level on Insomnia and Sleep Quality
 
-**Chart Type:** Line Combination Chart  
+**Chart Type:** Line Combination  
 
 **Description:**  
-This visualization analyzes the relationship between **Stress Level**, **Insomnia Pressure**, and **Sleep Hours**. Users can interactively filter the data using **Gender** and **Job Type** controls, allowing focused analysis across different demographic and professional groups.
+This static visualization analyzes the relationship between Stress Level, Insomnia Pressure, and Sleep Hours. Users can filter the data using Gender and Job Type controls.
 
 **Purpose:**  
-To highlight the direct impact of stress on sleep-related outcomes in a clear, fixed, and descriptive visual form.
+To highlight the direct impact of stress on sleep-related outcomes in a fixed and descriptive manner.
 
 <img width="857" height="661" alt="image" src="https://github.com/user-attachments/assets/4747ab0b-c0bf-4f5d-a41d-8bca3b59f102" />
 
 ### Productivity and Notification Frequency Across Work Break Levels
 
-**Chart Type:** Line Combination Chart  
-
+**Chart Type:** Line Combination
 **Description:**  
-This visualization compares **Actual Productivity Score** and **Number of Notifications** across different levels of **Breaks During Work**. Interactive filters allow dynamic comparison between groups while preserving the same chart structure.
+This visualization compares Actual Productivity Score and Number of Notifications across different levels of Breaks During Work. Interactive filters allow dynamic comparison without altering the chart structure.
 
 **Purpose:**  
-To explore how break frequency influences productivity and exposure to digital distractions.
+To explore how break frequency influences productivity and digital distraction.
 
 <img width="660" height="558" alt="image" src="https://github.com/user-attachments/assets/68b7cbed-db57-42c6-92d4-9cd25848977b" />
 
 ### Burnout Risk by Stress Level and Sleep Hours
 
-**Chart Type:** Colored Side-by-Side Bar Chart  
+**Chart Type:** Colored Side-by-Side Bar Chart 
 
 **Description:**  
-This visualization explores how **Burnout Risk** varies across different **Stress Levels**, with **Sleep Hours** represented using binned color encoding. Global filters for **Gender** and **Job Type** are applied to enable multidimensional analysis.
+This visualization explores how Burnout Risk varies across different Stress Levels, with Sleep Hours (binned) represented by color. Global filters for Gender and Job Type are applied.
 
 **Purpose:**  
-To analyze burnout patterns and identify high-risk groups using multiple interacting health and behavioral dimensions.
+To analyze burnout patterns using multiple dimensions in an interactive environment.
 
 ## Static Multidimensional Visualizations
 ### Social Media Platform Preferences by Job Type
@@ -415,18 +414,18 @@ To analyze burnout patterns and identify high-risk groups using multiple interac
 **Chart Type:** Stacked / Grouped Bar Chart  
 
 **Description:**  
-This visualization presents preferences for different social media platforms across various **Job Types**. Users can apply **Gender** and **Job Type** filters to explore usage patterns across professional groups.
+This interactive visualization shows preferences for different social media platforms across various job types. Users can filter the data using Gender and Job Type controls.
 
 **Purpose:**  
-To enable exploratory analysis of social media platform usage across different professions.
+To enable exploratory analysis of platform usage patterns across professional groups.
 
 ### Comparison of Average Age and Job Satisfaction Across Genders
 
 **Chart Type:** Stacked / Grouped Bar Chart  
 
 **Description:**  
-This chart compares **Average Age** and **Average Job Satisfaction Score** across genders using a dual-axis approach. Interactive filters allow dynamic comparison without altering the chart structure.
+This chart compares Average Age and Average Job Satisfaction Score across genders using a dual-axis approach. Interactive filters allow dynamic comparison without altering the chart structure.
 
 **Purpose:**  
-To examine demographic differences in job satisfaction while maintaining visual clarity and interpretability.
+To examine demographic differences in job satisfaction while maintaining visual clarity.
 
