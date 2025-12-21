@@ -374,7 +374,7 @@ Features:
 
 This section presents both **interactive** and **static multidimensional visualizations** derived from the dataset containing demographic, behavioral, productivity, stress, sleep, and social media usage indicators.  
 The objective is to uncover relationships across multiple dimensions while maintaining interpretability and analytical clarity.
-
+## Interactive Multidimensional Visualizations
 ### Impact of Stress Level on Insomnia and Sleep Quality
 
 **Chart Type:** Line Combination Chart  
@@ -409,3 +409,13 @@ This visualization explores how **Burnout Risk** varies across different **Stres
 **Purpose:**  
 To analyze burnout patterns and identify high-risk groups using multiple interacting health and behavioral dimensions.
 
+## Static Multidimensional Visualizations
+### Social Media Platform Preferences by Job Type
+
+**Chart Type:** Stacked / Grouped Bar Chart  
+
+**Description:**  
+This visualization presents preferences for different social media platforms across various **Job Types**. Users can apply **Gender** and **Job Type** filters to explore usage patterns across professional groups.
+
+**Purpose:**  
+To enable exploratory analysis of social media platform usage across different professions.
