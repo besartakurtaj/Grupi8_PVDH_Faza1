@@ -419,3 +419,14 @@ This visualization presents preferences for different social media platforms acr
 
 **Purpose:**  
 To enable exploratory analysis of social media platform usage across different professions.
+
+### Comparison of Average Age and Job Satisfaction Across Genders
+
+**Chart Type:** Stacked / Grouped Bar Chart  
+
+**Description:**  
+This chart compares **Average Age** and **Average Job Satisfaction Score** across genders using a dual-axis approach. Interactive filters allow dynamic comparison without altering the chart structure.
+
+**Purpose:**  
+To examine demographic differences in job satisfaction while maintaining visual clarity and interpretability.
+
