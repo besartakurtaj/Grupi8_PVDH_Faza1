@@ -398,3 +398,14 @@ This visualization compares **Actual Productivity Score** and **Number of Notifi
 To explore how break frequency influences productivity and exposure to digital distractions.
 
 <img width="660" height="558" alt="image" src="https://github.com/user-attachments/assets/68b7cbed-db57-42c6-92d4-9cd25848977b" />
+
+### Burnout Risk by Stress Level and Sleep Hours
+
+**Chart Type:** Colored Side-by-Side Bar Chart  
+
+**Description:**  
+This visualization explores how **Burnout Risk** varies across different **Stress Levels**, with **Sleep Hours** represented using binned color encoding. Global filters for **Gender** and **Job Type** are applied to enable multidimensional analysis.
+
+**Purpose:**  
+To analyze burnout patterns and identify high-risk groups using multiple interacting health and behavioral dimensions.
+
