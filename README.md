@@ -305,6 +305,11 @@ Visualize different types of data appropriately
 * Identify distributions, proportions, and imbalances
 * Improve data understanding before modeling or analysis
 
+### Interactive Dashboard (Tableau Public)
+
+🔗 **Tableau Public Dashboard:**  
+https://public.tableau.com/views/Grupi2-SocialMediavsProductivity-PDHV-Master/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 ### Categorical Data Visualization
 
 Chart Type: Pie Charts
